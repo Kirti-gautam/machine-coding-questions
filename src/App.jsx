@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordian from "./components/Accordian";
 import InfiniteScroll from "./components/InfiniteScrollUsingOffset";
 import StopWatch from "./components/StopWatch";
 
@@ -7,7 +8,8 @@ function App() {
     <>
       <h1>Machine Coding Questions</h1>
       {/* <StopWatch /> */}
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      <Accordian />
     </>
   );
 }

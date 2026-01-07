@@ -52,3 +52,21 @@
   overflow: scroll;
   margin: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.acc-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: yellow;
+  padding: 16px;
+}
