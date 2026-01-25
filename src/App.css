@@ -70,3 +70,20 @@
   background-color: yellow;
   padding: 16px;
 }
+
+form {
+  padding: 16px;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  background-color: rgb(240, 240, 208);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.error {
+  color: red;
+}
